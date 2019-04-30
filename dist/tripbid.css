@@ -115,7 +115,8 @@ a.svg {
 /** 1. Change the default font family in all browsers (opinionated). 2. Correct the line height in all browsers. 3. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
 /* Document ========================================================================== */
 html {
-  font-family: sans-serif; /* 1 */
+
+  font-family: 'Open Sans', sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 3 */ 
   -ms-text-size-adjust: 100%; /* 3 */
 }
@@ -195,7 +196,8 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace; /* 1 (changed) */
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace; /* 1 (changed) */
   font-size: 1em; /* 2 */
 }
 
@@ -399,7 +401,8 @@ html {
 body {
   background: #fff;
   color: #575757;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; */
   font-size: .8rem;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
