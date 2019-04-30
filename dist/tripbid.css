@@ -3693,7 +3693,7 @@ a.text-error:hover {
 	left: 5%;
 	top: 34px;
     transform: translateY(-50%);
-    z-index: 100;
+    z-index: 99;
 	padding: 10px;
 	letter-spacing: 1px;  	
 }
