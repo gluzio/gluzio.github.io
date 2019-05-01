@@ -405,6 +405,7 @@ body {
   /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; */
   font-size: .8rem;
   overflow-x: hidden;
+  width: 100%;
   text-rendering: optimizeLegibility;
 }
 
