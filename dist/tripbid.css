@@ -814,6 +814,7 @@ dl dd {
   font-size: .9rem;
   height: 3rem;
   padding: .95rem 1.8rem;
+  width: 100%
 }
 
 .btn.btn-block {
@@ -3665,7 +3666,7 @@ a.text-error:hover {
 }
 
 .text-large {
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 
 .text-ellipsis {
@@ -3708,4 +3709,7 @@ a.text-error:hover {
 }
 .card .card-image {
   position: relative;
+}
+.card .card-title {
+  width: 100%;
 }
