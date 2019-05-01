@@ -3694,7 +3694,7 @@ a.text-error:hover {
     color: white;
     position: absolute;
 	left: 5%;
-	top: 34px;
+	top: 35px;
     transform: translateY(-50%);
     z-index: 99;
 	padding: 10px;
