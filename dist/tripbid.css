@@ -2359,8 +2359,6 @@ summary.accordion-header::-webkit-details-marker {
 
 .card {
   background: #fff;
-  border: .05rem solid #e3e3e3;
-  border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-direction: column;
@@ -2370,7 +2368,9 @@ summary.accordion-header::-webkit-details-marker {
 .card .card-header,
 .card .card-body,
 .card .card-footer {
-  padding: .8rem;
+  padding-top: .2rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
   padding-bottom: 0;
 }
 
@@ -2389,8 +2389,6 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .card .card-image:first-child img {
-  border-top-left-radius: .1rem;
-  border-top-right-radius: .1rem;
 }
 
 .card .card-image:last-child img {
