@@ -3,80 +3,282 @@
 <head>
     <meta charset="utf-8">
     <meta name="robots" content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="author" content="https://www.tripbid.com/">
     <title>tripbid - everywhere is possible</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="dist/tripbid.css">
     <link rel="stylesheet" href="dist/spectre-icons.css">
     <link rel="stylesheet" href="dist/spectre-exp.css">
     <link rel="stylesheet" href="dist/docs.css">
+
 </head>
 <body>
 
-<div class="container">
 
-<div class="docs-navbar">
-    <section class="navbar-section">
-        <!-- off-screen toggle button -->
-        <a class="off-canvas-toggle svg mx-2" href="#sidebar">
-            <object data="img/flops.svg" type="image/svg+xml" class="svg">
-            </object>
-        </a>
-    </section>
-    <section class="navbar-section px-2">
+<div class="docs-container off-canvas off-canvas-sidebar-show">
 
-        <a href="#" class="btn btn badge m-2" data-badge="256">
-            bids
-        </a>
-    </section>
-</div>
+    <div class="docs-navbar">
+        <section class="navbar-section">
+            <!-- off-screen toggle button -->
+            <a class="off-canvas-toggle svg mx-2" href="#sidebar">
+                <object data="img/flops.svg" type="image/svg+xml" class="svg">
+                </object>
+            </a>
+        </section>
+        <section class="navbar-section px-2">
+
+            <a href="#" class="btn btn badge m-2" data-badge="256">
+                bids
+            </a>
+        </section>
+    </div>
 
 
-  <div class="columns">
-    <div class="column col-9">
-
-<div class="carousel">
-  <!-- carousel locator -->
-  <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked="">
-  <input class="carousel-locator" id="slide-2" type="radio" name="carousel-radio" hidden="">
-  <input class="carousel-locator" id="slide-3" type="radio" name="carousel-radio" hidden="">
-  <input class="carousel-locator" id="slide-4" type="radio" name="carousel-radio" hidden="">
-
-  <!-- carousel container -->
-  <div class="carousel-container">
-    <!-- carousel item -->
-    <figure class="carousel-item">
-      <label class="item-prev btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-left"></i></label>
-      <label class="item-next btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-right"></i></label><img class="img-responsive rounded" src="img/osx-yosemite.jpg" alt="macOS Yosemite Wallpaper">
-    </figure>
-    <figure class="carousel-item">
-      <label class="item-prev btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-left"></i></label>
-      <label class="item-next btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-right"></i></label><img class="img-responsive rounded" src="img/osx-yosemite-2.jpg" alt="macOS Yosemite Wallpaper">
-    </figure>
-    <figure class="carousel-item">
-      <label class="item-prev btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-left"></i></label>
-      <label class="item-next btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-right"></i></label><img class="img-responsive rounded" src="img/osx-el-capitan.jpg" alt="macOS Yosemite Wallpaper">
-    </figure>
-    <figure class="carousel-item">
-      <label class="item-prev btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-left"></i></label>
-      <label class="item-next btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-right"></i></label><img class="img-responsive rounded" src="img/osx-el-capitan-2.jpg" alt="macOS Yosemite Wallpaper">
-    </figure>
-  </div>
-  <!-- carousel navigation -->
-  <div class="carousel-nav">
-    <label class="nav-item text-hide c-hand" for="slide-1">1</label>
-    <label class="nav-item text-hide c-hand" for="slide-2">2</label>
-    <label class="nav-item text-hide c-hand" for="slide-3">3</label>
-    <label class="nav-item text-hide c-hand" for="slide-4">4</label>
-  </div>
-  <div class="text-call-out">
-      <div class="text-call-out-value">Value</div>
-      <div class="text-call-out-price">£2500</div>
-  </div>
-</div>
+    <div id="sidebar" class="docs-sidebar off-canvas-sidebar">
+        <!-- off-screen sidebar -->
+        <div class="tripbid-brand">
+            <a href="index.html" class="tripbid-logo">
+              <img src="img/tripbid.svg" alt="tripbid">
+              <h2>tripbid<sup>&reg;</sup></h2>
+            </a>
         </div>
-<div class="column col-3">col-3</div>
+        <div class="docs-nav">
+        <div class="accordion-container">
+            <div class="accordion">
+                <input type="checkbox" id="docs-accordion-1" name="docs-accordion-checkbox" hidden="">
+                <label class="accordion-header c-hand" for="docs-accordion-1">
+                    Getting started
+                </label>
+                <div class="accordion-body">
+                    <ul class="menu menu-nav">
+                        <li class="menu-item">
+                            <a href="getting-started.html#introduction">Register on tripbid.com</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="getting-started.html#installation">Buy Bids</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="getting-started.html#installation">Choose your trip</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="getting-started.html#custom">Bid on your trip</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion">
+                <input type="checkbox" id="docs-accordion-2" name="docs-accordion-checkbox" hidden="">
+                <label class="accordion-header c-hand" for="docs-accordion-2">
+                    How to Win
+                </label>
+                <div class="accordion-body">
+                    <ul class="menu menu-nav">
+                        <li class="menu-item">
+                            <a href="elements.html#typography">Bidding strategy</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="elements.html#tables">Timing</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="elements.html#buttons">Winning on tripbid.com</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="elements.html#buttons">Recent Winners</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion">
+                <input type="checkbox" id="docs-accordion-3" name="docs-accordion-checkbox" hidden="">
+                <label class="accordion-header c-hand" for="docs-accordion-3">
+                    About Us
+                </label>
+                <div class="accordion-body">
+                    <ul class="menu menu-nav">
+                        <li class="menu-item">
+                            <a href="layout.html#grid">About tripbid.com</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="layout.html#responsive">Privacy Policy</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="layout.html#navbar">Terms and Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion">
+                <input type="checkbox" id="docs-accordion-4" name="docs-accordion-checkbox" hidden="">
+                <label class="accordion-header c-hand" for="docs-accordion-4">
+                    Support
+                </label>
+                <div class="accordion-body">
+                    <ul class="menu menu-nav">
+                        <li class="menu-item">
+                            <a href="components.html#accordions">Contact Us</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="components.html#autocomplete">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<a class="off-canvas-overlay" href="#close"></a>
+
+
+<div id="content" class="docs-content off-canvas-content">
+
+    <div class="container">
+    <h3 class="s-title">5* Holiday in Thailand<a class="anchor" href="#title" aria-hidden="true">#</a></h3>
+        <div class="columns">
+
+            <div class="column col-6 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/greece.jpg" class="img-responsive">
+                        <div class="text-call-out">
+							  <div class="text-call-out-value text-center">Value</div>
+							  <div class="text-call-out-price">£2500</div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="column col-6 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="columns col-gapless">
+                            <div class="col-12">
+                                <div class="card-title h5">Thailand 4* Holiday</div>
+                            </div>
+                            <div class="col-6 p-1">
+                                <div class="text-center text-smaller text-gray">PRICE</div>
+                                <div class="text-center text-large text-bold">£1.96</div>
+                            </div>
+                            <div class="col-6 p-1">
+                                <div class="text-center text-smaller text-gray">TIME LEFT</div>
+                                <div class="text-center">00:00:<span class="text-large text-bold">09</span></div>
+
+                            </div>
+                        </div>
+                            <button class="btn btn-primary btn-lg">BID</button>
+                             <div class="text-center p-2 text-smaller">Current winner: <span class="text-bold">fluffybunny123</span>
+                             </div>
+                    </div>
+                    <!-- divider element -->
+                    <div class="divider"></div>
+                    <div class="card-title h5">Latest Bids</div>
+                    <table class="table table-striped table-hover">
+                      <thead>
+                        <tr>
+                          <th>Time</th>
+                          <th>Type</th>
+                          <th>User</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>07:56:09</td>
+                          <td>Single Bid</td>
+                          <td>fluffybunny66</td>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr>
+                          <td>07:56:09</td>
+                          <td>Single Bid</td>
+                          <td>fluffybunny66</td>
+                        </tr>
+                      </tbody>
+                        <tbody>
+                            <tr>
+                              <td>07:56:09</td>
+                              <td>Single Bid</td>
+                              <td>fluffybunny66</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                              <td>07:56:09</td>
+                              <td>Single Bid</td>
+                              <td>fluffybunny66</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="column col-12">
+                <div id="tabs">
+
+                    <ul class="tab tab-block">
+                        <li class="tab-item active"><a href="#box1">Accomodation</a></li>
+                        <li class="tab-item"><a href="#box2">Flights</a></li>
+                        <li class="tab-item"><a href="#box3">Area</a></li>
+                    </ul>
+
+                    <div id="box">
+                        <div id="box1" class="box">
+                           <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                            <li>Aliquam tincidunt mauris eu risus.</li>
+                            <li>Vestibulum auctor dapibus neque.</li>
+                           </ul>
+                           <!--[if IE]><b>.</b><![endif]-->
+                         </div>
+                        <div id="box2" class="box">Another box! <!--[if IE]><b>.</b><![endif]--></div>
+                        <div id="box3" class="box">Woot! <!--[if IE]><b>.</b><![endif]--></div>
+                    </div>
+
+                </div>
+            </div>
+
+    </div>
+
+    <footer class="docs-footer">
+        <div id="copyright" class="grid-footer container grid-lg">
+            <p><a href="getting-started.html" target="_blank">How to Win</a> | <a
+                    href="https://www.instagram.com/tripbid/" target="_blank">Instagram</a> | <a
+                    href="https://twitter.com/tripbid" target="_blank">Twitter</a> | <a
+            <p>©<a href="https://www.tripbid.com/" target="_blank">tripbid limited</a>. </p>
+        </div>
+    </footer>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+<script>
+// Get the container element
+var tabsContainer = document.getElementById("tabs");
+
+// Get all buttons with class="btn" inside the container
+var tabs = tabsContainer.getElementsByClassName("tab-item");
+
+// Loop through the tabs and add the active class to the current/clicked tab
+for (var i = 0; i < tabs.length; i++) {
+  tabs[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
 </body>
 </html>
